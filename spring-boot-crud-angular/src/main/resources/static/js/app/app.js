@@ -1,8 +1,8 @@
 var app = angular.module('crudApp',['ui.router','ngStorage']);
 
 app.constant('urls', {
-    BASE: 'http://localhost:8080/SpringBootCrudAngularApp',
-    USER_SERVICE_API : 'http://localhost:8080/SpringBootCrudAngularApp/api/user/'
+    BASE: 'https://spring-boot-crud-angular.cfapps.io/SpringBootCrudAngularApp',
+    USER_SERVICE_API : 'https://spring-boot-crud-angular.cfapps.io/SpringBootCrudAngularApp/api/user/'
 });
 
 app.config(['$stateProvider', '$urlRouterProvider',
